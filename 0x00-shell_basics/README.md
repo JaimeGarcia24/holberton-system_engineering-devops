@@ -1,1 +1,1 @@
-#:computer: Shell Basics :computer:#
+#:computer: Shell Basics :computer:
