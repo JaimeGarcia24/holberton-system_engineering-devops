@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+#FizzBuzz
+
+for (( buzz=1; buzz<101; buzz++ ))
+    do
+    if [ $(( buzz % 15)) -eq 0 ]
+    then
+    echo "FizzBuzz"
+    elif [ $(( buzz % 3 )) -eq 0 ]
+    then
+    echo "Fizz"
+    elif [ $(( buzz % 5 )) -eq 0 ]
+    then
+    echo "Buzz"
+    else
+    echo "$buzz"
+    fi
+done
