@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 # This script is displaying "Holberton School" 10 times
 
-counter=0
 
+counter=1
 until [ 10 -lt $counter ];
 do
-  echo "Holberton School";
-  ((counter++))
+    echo "Holberton School";
+    (( counter++ ))
 done
