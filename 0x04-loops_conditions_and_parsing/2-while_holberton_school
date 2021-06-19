@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # This script is displaying "Holberton School" 10 times
 bucle=0;
-while [ $bucle -le 10 ]
+while [ $bucle -lt 10 ]
 do
    echo "Holberton School"
    ((bucle++))
