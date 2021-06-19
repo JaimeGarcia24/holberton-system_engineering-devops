@@ -3,7 +3,7 @@
 
 counter=0;
 
-until [ $counter -gt 10 ]
+until [ $counter -lt 10 ]
 do
   echo "Holberton School"
   ((counter++))
